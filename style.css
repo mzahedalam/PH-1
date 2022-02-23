@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Reset Default CSS rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+Heading color Blue - #363958
+Heading color Red - #F46060
+Primary Color - #3E3E3E;
+*/
+
+html,
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7em;
+  color: #363958;
+}
+
+a {
+  text-decoration: none;
+}
+.half-wid {
+  width: 40%;
+  float: left;
+  margin: 0% 0 0 5%;
+  padding: 2% 0 0 2%;
+}
+
+.half-wid img {
+  width: 90%;
+  margin: 0;
+}
+
+.half-wid h1 {
+  padding-top: 0.5em;
+}
+
+/* header h1 {
+  padding: 0;
+  margin: 0;
+  border-left: 5px solid red;
+} */
+.header-left-bit {
+  border-left: 5px solid red;
+  font-family: "Lobster", cursive;
+}
+
+.button {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 2em;
+  padding: 7px;
+  border-width: 0;
+  background: linear-gradient(0deg, #ff8063 -28.33%, #f46060 95.83%);
+  border-radius: 6px;
+}
+
+.clr {
+  clear: both;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 5rem;
+  padding: 2rem;
+  font-family: "Lobster", cursive;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: 1px dashed;
+}
