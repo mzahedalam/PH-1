@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap");
 
 /* Reset Default CSS rules */
 * {
@@ -8,15 +8,16 @@
 }
 
 /* 
-Heading color Blue - #363958
-Heading color Red - #F46060
-Primary Color - #3E3E3E;
+Heading color 1 - #333333
+Heading color 2 - #FFAD5A
+Primary Color - #;
+Button - #FF5959
 */
 
 html,
 body {
   background: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.7em;
   color: #363958;
 }
@@ -40,14 +41,9 @@ a {
   padding-top: 0.5em;
 }
 
-/* header h1 {
-  padding: 0;
-  margin: 0;
-  border-left: 5px solid red;
-} */
 .header-left-bit {
-  border-left: 5px solid red;
-  font-family: "Lobster", cursive;
+  border-left: 5px solid #ffad5a;
+  font-family: "Yeseva One", cursive;
 }
 
 .button {
@@ -56,7 +52,7 @@ a {
   margin-top: 2em;
   padding: 7px;
   border-width: 0;
-  background: linear-gradient(0deg, #ff8063 -28.33%, #f46060 95.83%);
+  background: linear-gradient(0deg, #ff5959 -28.33%, #f46060 95.83%);
   border-radius: 6px;
 }
 
@@ -74,5 +70,5 @@ a {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
-  border: 1px dashed;
+  border-top: 1px dashed;
 }
