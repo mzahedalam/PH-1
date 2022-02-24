@@ -23,7 +23,7 @@ body {
 }
 
 .main {
-  margin: 0 5% 0 5%;
+  margin: 0 5% 0 10%;
 }
 
 a {
@@ -144,11 +144,24 @@ header p {
   width: 50%;
   float: left;
 }
+.activity-text h1 {
+  color: #333333;
+  font-size: 36px;
+  line-height: 70%;
+}
+.activity-text p {
+  color: #3e3e3e;
+  font-size: 18px;
+  padding: 5% 0 5% 0;
+}
 .activity-img {
   width: 40%;
   float: left;
 }
 
+.space-top-padding {
+  padding-top: 5%;
+}
 .space-left {
   margin-left: 5%;
 }
