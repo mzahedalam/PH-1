@@ -22,6 +22,10 @@ body {
   color: #363958;
 }
 
+.main {
+  margin: 0 5% 0 5%;
+}
+
 a {
   text-decoration: none;
 }
@@ -32,7 +36,7 @@ header p {
 .half-wid {
   width: 40%;
   float: left;
-  margin: 0% 0 0 5%;
+  margin: 0% 0 0 0%;
   padding: 2% 0 0 2%;
 }
 
@@ -42,20 +46,27 @@ header p {
 }
 
 .half-wid h1 {
-  padding-top: 0.5em;
+  padding-top: 0em;
 }
 
-.header {
+/* .header {
   width: 40%;
   float: left;
-  margin: 0 0 5% 10%;
+  margin: 0 0 5% 5%;
   padding: 0 0 0 2%;
-}
+} */
 .header-title {
-  padding-top: 20%;
+  width: 50%;
+  float: left;
+  padding-top: 10rem;
+}
+.header-img {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
 }
 .header img {
-  width: 80%;
+  width: 100%;
   margin: 0;
 }
 .header-left-bit {
@@ -86,7 +97,7 @@ header p {
 .workblock {
   width: 30%;
   float: left;
-  margin: 0 0 0 3%;
+  margin: 0 0 0 0;
   padding: 0 0 0 2%;
   border-radius: 6px;
 }
@@ -95,9 +106,11 @@ header p {
 }
 #vision {
   background-color: rgba(255, 89, 89, 0.1);
+  margin-left: 5%;
 }
 #goals {
   background-color: rgba(255, 244, 214, 1);
+  margin-left: 5%;
 }
 .workblock img {
   width: 50%;
@@ -110,6 +123,7 @@ header p {
 
 #section-1 h1 {
   text-align: center;
+  margin: 2rem;
 }
 #section-4 h1 {
   text-align: center;
@@ -121,14 +135,22 @@ header p {
 
 .footer {
   background-color: #0b0d17;
+  color: #ffffff;
   width: 100%;
   margin-top: 5rem;
   padding: 2rem;
-  font-family: "Lobster", cursive;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0.05em;
   text-align: center;
   border-top: 1px dashed;
+}
+.footer h1 {
+  font-family: "Lobster", cursive;
+  padding: 10px;
+}
+footer .text2022 {
+  color: #ff5959;
 }
