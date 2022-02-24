@@ -59,7 +59,9 @@ header p {
   width: 50%;
   float: left;
   padding-top: 10rem;
+  color: #13103a;
 }
+
 .header-img {
   width: 40%;
   float: left;
@@ -122,8 +124,17 @@ header p {
 }
 
 #section-1 h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
   text-align: center;
-  margin: 2rem;
+  margin: 4rem;
+}
+#section-1 .header-color-1 {
+  color: #13103a;
+}
+#section-1 .header-color-2 {
+  color: #ffad5a;
 }
 #section-4 h1 {
   text-align: center;
