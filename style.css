@@ -16,10 +16,14 @@ Button - #FF5959
 
 html,
 body {
-  background: #e5e5e5;
+  background: #ffffff;
   font-family: "Poppins", sans-serif;
   line-height: 1.7em;
   color: #363958;
+  background-image: url(images/shapes/shape-1.png);
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-position: 3% 40%;
 }
 
 .main {
